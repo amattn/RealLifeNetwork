@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AAB2BC5146380EF00FAC5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAB2BC4146380EF00FAC5E1 /* UIKit.framework */; };
+		2AAB2BC7146380EF00FAC5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAB2BC6146380EF00FAC5E1 /* Foundation.framework */; };
+		2AAB2BC9146380EF00FAC5E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAB2BC8146380EF00FAC5E1 /* CoreGraphics.framework */; };
+		2AAB2BCF146380EF00FAC5E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB2BCD146380EF00FAC5E1 /* InfoPlist.strings */; };
+		2AAB2BD1146380EF00FAC5E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD0146380EF00FAC5E1 /* main.m */; };
+		2AAB2BD5146380EF00FAC5E1 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD4146380EF00FAC5E1 /* RLAppDelegate.m */; };
+		2AAB2BD8146380EF00FAC5E1 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */; };
+		2AAB2BDB146380EF00FAC5E1 /* RLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD9146380EF00FAC5E1 /* RLViewController.xib */; };
+		2AAB2BEA14638DD500FAC5E1 /* RLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BE714638DD500FAC5E1 /* RLConnection.m */; };
+		2AAB2BEB14638DD500FAC5E1 /* RLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AAB2BC0146380EF00FAC5E1 /* RLNetworkSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLNetworkSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAB2BC4146380EF00FAC5E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AAB2BC6146380EF00FAC5E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AAB2BC8146380EF00FAC5E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AAB2BCC146380EF00FAC5E1 /* RLNetworkSampleProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RLNetworkSampleProject-Info.plist"; sourceTree = "<group>"; };
+		2AAB2BCE146380EF00FAC5E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AAB2BD0146380EF00FAC5E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AAB2BD2146380EF00FAC5E1 /* RLNetworkSampleProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLNetworkSampleProject-Prefix.pch"; sourceTree = "<group>"; };
+		2AAB2BD3146380EF00FAC5E1 /* RLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLAppDelegate.h; sourceTree = "<group>"; };
+		2AAB2BD4146380EF00FAC5E1 /* RLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLAppDelegate.m; sourceTree = "<group>"; };
+		2AAB2BD6146380EF00FAC5E1 /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
+		2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
+		2AAB2BDA146380EF00FAC5E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RLViewController.xib; sourceTree = "<group>"; };
+		2AAB2BE614638DD500FAC5E1 /* RLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLConnection.h; sourceTree = "<group>"; };
+		2AAB2BE714638DD500FAC5E1 /* RLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLConnection.m; sourceTree = "<group>"; };
+		2AAB2BE814638DD500FAC5E1 /* RLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNetworkManager.h; sourceTree = "<group>"; };
+		2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNetworkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAB2BBD146380EF00FAC5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAB2BC5146380EF00FAC5E1 /* UIKit.framework in Frameworks */,
+				2AAB2BC7146380EF00FAC5E1 /* Foundation.framework in Frameworks */,
+				2AAB2BC9146380EF00FAC5E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAB2BB5146380EF00FAC5E1 = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BCA146380EF00FAC5E1 /* RLNetworkSampleProject */,
+				2AAB2BC3146380EF00FAC5E1 /* Frameworks */,
+				2AAB2BC1146380EF00FAC5E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AAB2BC1146380EF00FAC5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BC0146380EF00FAC5E1 /* RLNetworkSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AAB2BC3146380EF00FAC5E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BC4146380EF00FAC5E1 /* UIKit.framework */,
+				2AAB2BC6146380EF00FAC5E1 /* Foundation.framework */,
+				2AAB2BC8146380EF00FAC5E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AAB2BCA146380EF00FAC5E1 /* RLNetworkSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BD3146380EF00FAC5E1 /* RLAppDelegate.h */,
+				2AAB2BD4146380EF00FAC5E1 /* RLAppDelegate.m */,
+				2AAB2BD6146380EF00FAC5E1 /* RLViewController.h */,
+				2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */,
+				2AAB2BD9146380EF00FAC5E1 /* RLViewController.xib */,
+				2AAB2BE514638DD500FAC5E1 /* RLNetwork */,
+				2AAB2BCB146380EF00FAC5E1 /* Supporting Files */,
+			);
+			path = RLNetworkSampleProject;
+			sourceTree = "<group>";
+		};
+		2AAB2BCB146380EF00FAC5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BCC146380EF00FAC5E1 /* RLNetworkSampleProject-Info.plist */,
+				2AAB2BCD146380EF00FAC5E1 /* InfoPlist.strings */,
+				2AAB2BD0146380EF00FAC5E1 /* main.m */,
+				2AAB2BD2146380EF00FAC5E1 /* RLNetworkSampleProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AAB2BE514638DD500FAC5E1 /* RLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB2BE614638DD500FAC5E1 /* RLConnection.h */,
+				2AAB2BE714638DD500FAC5E1 /* RLConnection.m */,
+				2AAB2BE814638DD500FAC5E1 /* RLNetworkManager.h */,
+				2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */,
+			);
+			name = RLNetwork;
+			path = ../../../Source/RLNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AAB2BBF146380EF00FAC5E1 /* RLNetworkSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AAB2BDE146380EF00FAC5E1 /* Build configuration list for PBXNativeTarget "RLNetworkSampleProject" */;
+			buildPhases = (
+				2AAB2BBC146380EF00FAC5E1 /* Sources */,
+				2AAB2BBD146380EF00FAC5E1 /* Frameworks */,
+				2AAB2BBE146380EF00FAC5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLNetworkSampleProject;
+			productName = RLNetworkSampleProject;
+			productReference = 2AAB2BC0146380EF00FAC5E1 /* RLNetworkSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AAB2BB7146380EF00FAC5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2AAB2BBA146380EF00FAC5E1 /* Build configuration list for PBXProject "RLNetworkSampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AAB2BB5146380EF00FAC5E1;
+			productRefGroup = 2AAB2BC1146380EF00FAC5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AAB2BBF146380EF00FAC5E1 /* RLNetworkSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AAB2BBE146380EF00FAC5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAB2BCF146380EF00FAC5E1 /* InfoPlist.strings in Resources */,
+				2AAB2BDB146380EF00FAC5E1 /* RLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AAB2BBC146380EF00FAC5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAB2BD1146380EF00FAC5E1 /* main.m in Sources */,
+				2AAB2BD5146380EF00FAC5E1 /* RLAppDelegate.m in Sources */,
+				2AAB2BD8146380EF00FAC5E1 /* RLViewController.m in Sources */,
+				2AAB2BEA14638DD500FAC5E1 /* RLConnection.m in Sources */,
+				2AAB2BEB14638DD500FAC5E1 /* RLNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AAB2BCD146380EF00FAC5E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAB2BCE146380EF00FAC5E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AAB2BD9146380EF00FAC5E1 /* RLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAB2BDA146380EF00FAC5E1 /* en */,
+			);
+			name = RLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AAB2BDC146380EF00FAC5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AAB2BDD146380EF00FAC5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AAB2BDF146380EF00FAC5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RLNetworkSampleProject/RLNetworkSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "RLNetworkSampleProject/RLNetworkSampleProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AAB2BE0146380EF00FAC5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RLNetworkSampleProject/RLNetworkSampleProject-Prefix.pch";
+				INFOPLIST_FILE = "RLNetworkSampleProject/RLNetworkSampleProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AAB2BBA146380EF00FAC5E1 /* Build configuration list for PBXProject "RLNetworkSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAB2BDC146380EF00FAC5E1 /* Debug */,
+				2AAB2BDD146380EF00FAC5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AAB2BDE146380EF00FAC5E1 /* Build configuration list for PBXNativeTarget "RLNetworkSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AAB2BDF146380EF00FAC5E1 /* Debug */,
+				2AAB2BE0146380EF00FAC5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AAB2BB7146380EF00FAC5E1 /* Project object */;
+}
