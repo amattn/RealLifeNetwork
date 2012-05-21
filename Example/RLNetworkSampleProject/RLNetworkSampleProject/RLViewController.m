@@ -7,7 +7,7 @@
 //
 
 #import "RLViewController.h"
-#import "RLNetworkManager.h"
+#import "RLConnectionManager.h"
 
 @implementation RLViewController
 
@@ -67,10 +67,10 @@
 	NSString *urlString = self.addressTextField.text;
 	NSURL *url = [NSURL URLWithString:urlString];
 	
-	RLNetworkManager *networkManager = [RLNetworkManager singleton];
-	
+	RLConnectionManager *connectionManager = [RLConnectionManager singleton];
+	    
 	// Do this if we succeed:
-	RLNetworkResponseSuccessHandlerBlockType successHandler = ^(NSURLRequest *request, NSURLResponse *response, NSData *responseData)
+	RLConnectionManagerSuccessHandlerBlockType successHandler = ^(NSURLRequest *request, NSURLResponse *response, NSData *responseData)
 	{
 		NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
 		if (responseString)
@@ -80,14 +80,14 @@
 	};
 	
 	// OR do this is we fail:
-	RLNetworkResponseErrorHandlerBlockType errorHandler = ^(NSURLRequest *request, NSError *error)
+	RLConnectionManagerErrorHandlerBlockType errorHandler = ^(NSURLRequest *request, NSError *error)
 	{
 		self.responseTextView.text = [NSString stringWithFormat:@"request failed with error: %@", error];
 	};
 	
-	[networkManager getRequestToURL:url
-					 successHandler:successHandler
-					   errorHandler:errorHandler];
+	[connectionManager getRequestToURL:url
+                        successHandler:successHandler
+                          errorHandler:errorHandler];
 }
 
 @end

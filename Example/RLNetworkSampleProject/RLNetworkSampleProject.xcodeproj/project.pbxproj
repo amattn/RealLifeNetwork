@@ -15,8 +15,8 @@
 		2AAB2BD5146380EF00FAC5E1 /* RLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD4146380EF00FAC5E1 /* RLAppDelegate.m */; };
 		2AAB2BD8146380EF00FAC5E1 /* RLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */; };
 		2AAB2BDB146380EF00FAC5E1 /* RLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB2BD9146380EF00FAC5E1 /* RLViewController.xib */; };
-		2AAB2BEA14638DD500FAC5E1 /* RLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BE714638DD500FAC5E1 /* RLConnection.m */; };
-		2AAB2BEB14638DD500FAC5E1 /* RLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */; };
+		2ADD2EF6156AD95F0026F47A /* RLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD2EF3156AD95F0026F47A /* RLConnection.m */; };
+		2ADD2EF7156AD95F0026F47A /* RLConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD2EF5156AD95F0026F47A /* RLConnectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +33,10 @@
 		2AAB2BD6146380EF00FAC5E1 /* RLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLViewController.h; sourceTree = "<group>"; };
 		2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLViewController.m; sourceTree = "<group>"; };
 		2AAB2BDA146380EF00FAC5E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RLViewController.xib; sourceTree = "<group>"; };
-		2AAB2BE614638DD500FAC5E1 /* RLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLConnection.h; sourceTree = "<group>"; };
-		2AAB2BE714638DD500FAC5E1 /* RLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLConnection.m; sourceTree = "<group>"; };
-		2AAB2BE814638DD500FAC5E1 /* RLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNetworkManager.h; sourceTree = "<group>"; };
-		2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNetworkManager.m; sourceTree = "<group>"; };
+		2ADD2EF2156AD95F0026F47A /* RLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLConnection.h; sourceTree = "<group>"; };
+		2ADD2EF3156AD95F0026F47A /* RLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLConnection.m; sourceTree = "<group>"; };
+		2ADD2EF4156AD95F0026F47A /* RLConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLConnectionManager.h; sourceTree = "<group>"; };
+		2ADD2EF5156AD95F0026F47A /* RLConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLConnectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				2AAB2BD6146380EF00FAC5E1 /* RLViewController.h */,
 				2AAB2BD7146380EF00FAC5E1 /* RLViewController.m */,
 				2AAB2BD9146380EF00FAC5E1 /* RLViewController.xib */,
-				2AAB2BE514638DD500FAC5E1 /* RLNetwork */,
+				2ADD2EF1156AD95F0026F47A /* RLConnection */,
 				2AAB2BCB146380EF00FAC5E1 /* Supporting Files */,
 			);
 			path = RLNetworkSampleProject;
@@ -105,16 +105,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2AAB2BE514638DD500FAC5E1 /* RLNetwork */ = {
+		2ADD2EF1156AD95F0026F47A /* RLConnection */ = {
 			isa = PBXGroup;
 			children = (
-				2AAB2BE614638DD500FAC5E1 /* RLConnection.h */,
-				2AAB2BE714638DD500FAC5E1 /* RLConnection.m */,
-				2AAB2BE814638DD500FAC5E1 /* RLNetworkManager.h */,
-				2AAB2BE914638DD500FAC5E1 /* RLNetworkManager.m */,
+				2ADD2EF2156AD95F0026F47A /* RLConnection.h */,
+				2ADD2EF3156AD95F0026F47A /* RLConnection.m */,
+				2ADD2EF4156AD95F0026F47A /* RLConnectionManager.h */,
+				2ADD2EF5156AD95F0026F47A /* RLConnectionManager.m */,
 			);
-			name = RLNetwork;
-			path = ../../../Source/RLNetwork;
+			name = RLConnection;
+			path = ../../../Source/RLConnection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +182,8 @@
 				2AAB2BD1146380EF00FAC5E1 /* main.m in Sources */,
 				2AAB2BD5146380EF00FAC5E1 /* RLAppDelegate.m in Sources */,
 				2AAB2BD8146380EF00FAC5E1 /* RLViewController.m in Sources */,
-				2AAB2BEA14638DD500FAC5E1 /* RLConnection.m in Sources */,
-				2AAB2BEB14638DD500FAC5E1 /* RLNetworkManager.m in Sources */,
+				2ADD2EF6156AD95F0026F47A /* RLConnection.m in Sources */,
+				2ADD2EF7156AD95F0026F47A /* RLConnectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
